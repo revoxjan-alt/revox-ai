@@ -1,0 +1,17 @@
+name: alisa_uz
+description: Revox AI - ozbekcha sun'iy intellekt yordamchi
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+  speech_to_text: ^7.0.0
+
+flutter:
+  uses-material-design: true
